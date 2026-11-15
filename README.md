@@ -6,8 +6,8 @@ git-репозиторий, который клонируется в свою п
 
 ## Структура
 
-- `stacks/apps/` — приложения (argiago, velora)
-- `stacks/ui/` — UI-библиотеки (open-coreui, open-velaui)
+- `stacks/apps/` — приложения (argiago, velora, open-coreui — бек с закрытым фронтом)
+- `stacks/ui/` — UI-библиотеки (open-velaui — альтернативная реализация закрытого фронта)
 - `stacks/auth/` — аутентификация / SSO (kanidm-admin, nostr-oidc-bridge, wcauth-tb-component)
 - `stacks/certs/` — PKI (certivore, step-ca-companion)
 - `stacks/archive/` — архив (argiago-react)

@@ -1,10 +1,10 @@
 path;url
 stacks/apps/argiago;https://github.com/zyrakq/argiago.git
 stacks/apps/velora;https://github.com/zyrakq/velora.git
-stacks/ui/open-coreui;https://github.com/zyrakq/open-coreui.git
+stacks/apps/open-coreui;https://github.com/zyrakq/open-coreui.git
 stacks/ui/open-velaui;https://github.com/zyrakq/open-velaui.git
 stacks/auth/kanidm-admin;https://github.com/zyrakq/kanidm-admin.git
-stacks/auth/nostr-oidc-bridge;-
+stacks/auth/nostr-oidc-bridge;https://github.com/zyrakq/nostr-oidc-bridge.git
 stacks/auth/wcauth-tb-component;https://github.com/zyrakq/wcauth-tb-component.git
 stacks/certs/certivore;https://github.com/zyrakq/certivore.git
 stacks/certs/step-ca-companion;https://github.com/zyrakq/step-ca-companion.git

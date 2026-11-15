@@ -1,2 +1,16 @@
 # Клонированные/скопированные подпроекты не коммитятся
 stacks/*/*/
+
+thoughts/ledgers/CONTINUITY_*.md
+.opencode/scratch/
+
+# fnox: plaintext env files never committed (secrets/fnox.toml is encrypted)
+.env
+
+# plugins are independent repos (see plugins.csv)
+.opencode/plugins/*/
+!.opencode/plugins/.gitkeep
+
+# symlink to ~/.config/opencode/plugins (global plugins; created by plugin-sync.sh)
+.opencode/global-plugins
+
