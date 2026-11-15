@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Auto-clone missing project/plugin repos after a branch switch / fresh checkout.
+root="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+[[ -x "$root/.githooks/project-sync.sh" ]] && "$root/.githooks/project-sync.sh"
+[[ -x "$root/.githooks/plugin-sync.sh" ]] && "$root/.githooks/plugin-sync.sh"
+exit 0
