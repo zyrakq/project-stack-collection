@@ -1,28 +1,28 @@
 # project-stack-collection
 
-Коллекция прикладных проектов (стеков). Каждый подпроект — независимый
-git-репозиторий, который клонируется в свою папку и трекается в манифесте
-`projects.csv` (формат `path;url`).
+Collection of application projects (stacks). Each subproject is an independent
+git repository cloned into its own folder and tracked in the `projects.csv`
+manifest (`path;url` format).
 
-## Структура
+## Structure
 
-- `stacks/apps/` — приложения (argiago, velora, open-coreui — бек с закрытым фронтом)
-- `stacks/ui/` — UI-библиотеки (open-velaui — альтернативная реализация закрытого фронта)
-- `stacks/auth/` — аутентификация / SSO (kanidm-admin, nostr-oidc-bridge, wcauth-tb-component)
+- `stacks/apps/` — applications (argiago, velora, open-coreui — closed frontend with open backend)
+- `stacks/ui/` — UI libraries (open-velaui — an alternative implementation of the closed frontend)
+- `stacks/auth/` — authentication / SSO (kanidm-admin, nostr-oidc-bridge, wcauth-tb-component)
 - `stacks/certs/` — PKI (certivore, step-ca-companion)
-- `stacks/archive/` — архив (argiago-react)
-- `projects.csv` — манифест подпроектов
-- `plugins.csv` — манифест плагинов (пока пуст)
+- `stacks/archive/` — archive (argiago-react)
+- `projects.csv` — manifest of subprojects
+- `plugins.csv` — manifest of plugins (empty for now)
 - `.githooks/` — `project-sync.sh` / `plugin-sync.sh` + `post-merge` / `post-checkout`:
-  недостающие репо клонируются автоматически
+  missing repos are cloned automatically
 
-## Подключение хуков
+## Hook setup
 
 ```sh
 git config core.hooksPath .githooks
 ```
 
-## Добавление подпроекта
+## Adding a subproject
 
-Добавить строку `path;url` в `projects.csv` и выполнить
+Add a `path;url` line to `projects.csv` and run
 `.githooks/project-sync.sh`.

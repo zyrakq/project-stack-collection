@@ -1,4 +1,4 @@
-# Клонированные/скопированные подпроекты не коммитятся
+# Cloned/copied subprojects are not committed
 stacks/*/*/
 
 thoughts/ledgers/CONTINUITY_*.md
