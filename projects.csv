@@ -9,3 +9,4 @@ stacks/auth/wcauth-tb-component;https://github.com/zyrakq/wcauth-tb-component.gi
 stacks/certs/certivore;https://github.com/zyrakq/certivore.git
 stacks/certs/step-ca-companion;https://github.com/zyrakq/step-ca-companion.git
 stacks/archive/argiago-react;https://github.com/zyrakq/argiago-react.git
+stacks/tools/stackbuilder;git@github.com:zyrakq/stackbuilder.git
