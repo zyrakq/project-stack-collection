@@ -1,0 +1,7 @@
+{
+  // Example: tool per role. Omitted roles use built-in defaults; "" disables a role.
+  "tools": {
+    "secrets": "fnox-secrets",
+    "ssh": "ssh-agent"
+  }
+}
